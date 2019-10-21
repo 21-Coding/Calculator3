@@ -52,17 +52,14 @@ $(document).ready(function() {
   console.log("stepFour = " + stepBonus());
 
 
+  $(".forwards").click(function() {
+    alert(stepFour());
+  });
+  $(".backwards").click(function() {
+    alert(stepBonus());
+  });
 
 
 
-
-  // WORKING OUTSIDE OF FUNCTION
-  // var newSentence1 = userSentence.replace(/^./, userSentence.charAt(0).toUpperCase());
-  // var newSentence2 = newSentence1.replace(/.$/, userSentence.charAt(0).toUpperCase());
-
-
-  // alert(newSentence2);
-  // console.log(newSentence2);
-  // WORKING OUTSIDE OF FUNCTION
 
 });
